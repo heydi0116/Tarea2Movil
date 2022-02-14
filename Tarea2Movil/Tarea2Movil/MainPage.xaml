@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2Movil.MainPage">
+
+    <StackLayout>
+        
+        <Entry Keyboard="Text" Placeholder="Escriba su nombre" x:Name="txtNombre" />
+
+        <Entry Keyboard="Text" Placeholder="Escriba su apellido" x:Name="txtApellido"/>
+
+        <Entry Keyboard="Numeric" Placeholder="Escriba su edad" x:Name="txtEdad" />
+
+        <Entry Keyboard="Email" Placeholder="Escriba su correo" x:Name="txtCorreo"/>
+
+        <Button Text="Enviar" x:Name="btnGuardar" Clicked="btnGuardar_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
